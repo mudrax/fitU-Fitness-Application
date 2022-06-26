@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_button_layout.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_item_accent_color_background.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_item_completed_recyclerview_accent_color_background.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_item_selected_recyclerview_accent_color_background.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_progress_bar.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/circular_progress_bar_grey.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/custom_background_radio_groups.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/recyclerview_bg.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/selected_radio_button_background.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/selected_radiobutton_button_text.xml" value="0.1775" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/switch_trcks.xml" value="0.2205" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/drawable/switch_tumbs.xml" value="0.2205" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_articles.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_bmi.xml" value="0.13545816733067728" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_exercise.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_login_page.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_news.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_result.xml" value="0.2" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_shop.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/dialogue_box_backpress.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/fragment_search_news.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/item_exercise_status.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/item_view.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/layout/recyclerview_bg.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/mudra/AndroidStudioProjects/FitU/app/src/main/res/menu/nav_drawer_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

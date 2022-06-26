@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "751030715113",
+    "project_id": "fitu-53860",
+    "storage_bucket": "fitu-53860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751030715113:android:411e26ff0aec1d60556678",
+        "android_client_info": {
+          "package_name": "com.mudrax.fitu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751030715113-4641c4h53rfubl234bof13roj4mnj6d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mudrax.fitu",
+            "certificate_hash": "9cb58e9951ab718f58988813d87326753d3741cb"
+          }
+        },
+        {
+          "client_id": "751030715113-rl61fcbttv1tht9dk18ior1g6inifm6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtWgnS2DPxkN8ooI1K0-YFusoAsRtV5pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751030715113-rl61fcbttv1tht9dk18ior1g6inifm6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitU</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="exercise">Exercise</string>
+    <string name="diet_tips">Diet Tips</string>
+    <string name="news">News</string>
+    <string name="shop">Shop</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="news_articles">News/Articles</string>
+    <string name="your_web_client_id">751030715113-rl61fcbttv1tht9dk18ior1g6inifm6q.apps.googleusercontent.com</string>
+</resources>

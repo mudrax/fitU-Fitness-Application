@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="10dp"
+    android:id="@+id/navHeaderLayout"
+    android:layout_gravity="start"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FBC1CE">
+
+    <ImageView
+        android:id="@+id/ivNavHeader"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvNameNavHeader"
+
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tvNameNavHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mudrax Dagar"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ivNavHeader"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvEmailNavHeader"/>
+    <TextView
+        android:id="@+id/tvEmailNavHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mudraxdagar10@gmail.com"
+
+        android:textSize="12sp"
+        android:textColor="#494747"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNameNavHeader"
+        />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

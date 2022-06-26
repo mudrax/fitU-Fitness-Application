@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/bg_home_pageii"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/dtuImage"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_margin="25dp"
+            android:src="@drawable/running_splash_icon"
+            app:layout_constraintBottom_toTopOf="@id/tvDtuProject"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.203" />
+
+        <TextView
+            android:id="@+id/tvDtuProject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/concert_one"
+            android:text="FitU, Aim for fitter World"
+            android:layout_margin="16dp"
+            android:textColor="#3F3E43"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dtuImage" />
+
+        <FrameLayout
+            android:id="@+id/flBMI"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:backgroundTint="#3B93FF"
+            app:layout_constraintTop_toBottomOf="@id/tvDtuProject"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/flHistory"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/circular_item_accent_color_background">
+
+            <TextView
+                android:id="@+id/btn_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/concert_one"
+                android:gravity="center"
+                android:text="BMI"
+                android:textColor="@color/white"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/bmi_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="CALCULATOR"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/flBMI"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/flBMI"
+            app:layout_constraintTop_toBottomOf="@+id/flBMI"
+            app:layout_constraintVertical_bias="0.15" />
+
+        <FrameLayout
+            android:id="@+id/flHistory"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:backgroundTint="#93D84E"
+            app:layout_constraintTop_toBottomOf="@id/tvDtuProject"
+            app:layout_constraintLeft_toRightOf="@+id/flBMI"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <ImageView
+                android:id="@+id/btn_History"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/history"
+
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/history_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="HISTORY"
+            android:textColor="@color/colorAccent"
+            android:textSize="20.5sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/flHistory"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="@+id/flHistory"
+            app:layout_constraintTop_toBottomOf="@+id/flHistory"
+            app:layout_constraintVertical_bias="0.092" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
